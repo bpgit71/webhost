@@ -1,8 +1,8 @@
-num1 = 10
-num2 = 5
+num1 = input("Please Enter First Number:") 
+num2 = input("Please Enter Second Number:")
 
 def add():
-    sum = num1 + num2
+    sum = int(num1) + int(num2)
     print("The Sum Of Two Numbers are:", sum)
 
 add()            
